@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "test": "cross-env NODE_ENV jest"
+    "start": "nodemon src/server.js",
+    "test": "cross-env NODE_ENV=test jest"
   },
   "keywords": [],
   "author": "Thiago Demas N Santos <thiago.demas7@gmail.com> (https://about.me/thiagodemas)",
@@ -15,11 +15,12 @@
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
     "express": "^4.17.1",
-    "jest": "^26.1.0",
     "knex": "^0.21.1",
     "sqlite3": "^4.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "jest": "^26.1.0",
+    "supertest": "^4.0.2"
   }
 }
