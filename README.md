@@ -5,7 +5,7 @@
 <h3 align="center" >
   An application where you can be the hero and save the world, but not by the conventional way, but by helping some NGOs to raise funds for their causes
 </h3>
-<p> Project developed on SemanaOmnistack 11.0 - RocketSeat </p>
+<p align="center"> Project developed on SemanaOmnistack 11.0 - RocketSeat </p>
 
 ## :computer: Languages
 
